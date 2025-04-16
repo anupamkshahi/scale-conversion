@@ -1,0 +1,119 @@
+/* sets the margin of all the element to 10px on all sides*/
+*{
+    margin: 10px;
+}
+
+body{
+background-color: rgb(18, 18, 28);
+}
+
+
+/* Home section  which has the app name and nav bar. The styling is applied by id */
+
+#home {
+
+    background-color:  #483355;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;  
+}
+
+/* Application name inside the home section. The styling is applied by tag name */
+
+header {
+    font-size: 30px;
+    color: rgb(21, 2, 21);
+    float : left;
+    padding-left: 2cm;
+}
+/*Navigation bar*/
+#navigation-bar{
+    float : right;
+    padding-right : 1cm;
+}
+
+/* Navigation Bar Buttons */
+.nav-button {
+    
+    color: lightgrey;
+    background-color: rgb(69, 12, 69);
+    margin : 10px;
+    padding: 10px;
+    font-size:20px;
+    text-decoration:none;
+    border-radius:1mm;
+}
+
+.nav-button:hover {
+    color:white;
+    font-weight: bolder;
+    background-color:purple(0, 0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Container for all the three conversion calculator sections   */
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+figure {
+    float:left; 
+    justify-self: auto; 
+    width:200px
+}
+img {
+    width: 200px;
+}
+figcaption {
+    color:pink;
+    font-size: 17px;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(173, 218, 173);
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+
+/* The calculator panel */
+.b{
+    border-top-style: solid;
+    background-color: white;
+    border-top-width: 20px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+
+#temperature{
+    border-top-color: rgb(168, 222, 135);
+}
+
+#weight{
+    border-top-color:#483355(0, 77, 128);
+}
+
+#distance{
+    border-top-color: rgb(98, 139, 139);
+
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
